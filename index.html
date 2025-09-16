@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh"></h1>
+    <p id="myp"></p>
+    <script>
+        document.getElementById("myh").innerHTML="javascript comment"
+        document.getElementById("myp").innerHTML = "my first paragraph"
+    </script>
+    <p>sum of two numbers</p>
+    <p id="result"></p>
+    <script>
+        var n1=5;
+        var n2=6;
+        var sum=n1+n2;
+        document.getElementById("result").innerHTML="total sum is="+sum;
+    </script>
+    <p>division of two numbers</p>
+    <p id="result2"></p>
+    <script>
+        var n1=100;
+        var n2=5;
+        var n3=2;
+        var n4=1;
+        var division=(n1/n2)*n3+n4;
+        document.getElementById("result2").innerHTML="total equation is="+division;
+    </script>
+</body>
+</html>
