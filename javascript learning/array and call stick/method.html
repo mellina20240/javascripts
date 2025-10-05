@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+         var Subjects=["Maths","Technology","French","Sience","PE"]
+         document.getElementById("myjoin").innerHTML=Subjects.join("-");
+         document.getElementById("myfirstpop").innerHTML=Subjects;
+        Subjects.pop();
+        document.getElementById("mysecondpop").innerHTML = Subjects;
+    </script>
+</body>
+</html>
